@@ -1,7 +1,7 @@
 import 'package:checkout_payment/Features/checkout/data/models/payment_intent_input_model.dart';
 import 'package:checkout_payment/Features/checkout/data/repos/checkout_repo.dart';
 import 'package:checkout_payment/core/utils/stripe_service.dart';
-import 'package:checkout_payment/errors/failures.dart';
+import 'package:checkout_payment/core/errors/failures.dart';
 import 'package:dartz/dartz.dart';
 
 class CheckoutRepoImpl extends CheckoutRepo {
